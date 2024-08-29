@@ -24,12 +24,12 @@ class RecipeDescription extends React.Component {
     render() {
         return (
             <div> 
-   <div>
-      <h1>{recipeTitle}</h1>
-      <p>{recipeShortDesc}</p>
-    </div>
-    <RecipeAuthor />
-    </div>
+                <div>
+                    <h1>{recipeTitle}</h1>
+                    <p>{recipeShortDesc}</p>
+                </div>
+                <RecipeAuthor />
+            </div>
         )
     }
 }
